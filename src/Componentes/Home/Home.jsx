@@ -1,8 +1,10 @@
 import AppStore from "../AppStore/AppStore";
 import Banner from "../Banner/Banner";
+import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
 import Hero from "../Hero/Hero";
 import Services from "../Services/Services";
+import Testmonial from "../Testmonial/Testmonial";
 
 
 const Home = () => {
@@ -13,6 +15,8 @@ const Home = () => {
             <Services></Services>
             <Banner></Banner>
             <AppStore></AppStore>
+            <Testmonial></Testmonial>
+            <Footer></Footer>
         </div>
     );
 };
